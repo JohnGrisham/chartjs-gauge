@@ -5,6 +5,7 @@ import GaugeController from './controllers/controller.gauge';
 Chart.controllers.gauge = GaugeController;
 Chart.Gauge = (context, config) => {
   config.type = 'gauge';
+  config.id = 'gauge';
 
   return new Chart(context, config);
 };
