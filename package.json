@@ -22,6 +22,7 @@
     "url": "https://github.com/haiiaaa/chartjs-gauge/issues"
   },
   "dependencies": {
+    "canvas": "^2.8.0",
     "chart.js": "^2.8.0"
   },
   "devDependencies": {
